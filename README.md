@@ -1,5 +1,3 @@
-Aqui está um exemplo de README.md reformulado com base no objetivo do projeto:
-
 # Projeto Corrida Premium: Análise de Regiões Adensadas e Renda per Capita
 
 ## Introdução
@@ -12,8 +10,8 @@ Este é um projeto que visa encontrar regiões mais adensadas e maior renda per 
 
 ---
 
-- Identificar regiões mais adensadas em São Paulo e outros municípios.
-- Analisar a relação entre renda per capita e demanda por corridas premium.
+- Identificar regiões mais adensadas e maior renda por domicílio em São Paulo e outros municípios.
+- Analisar a relação entre renda por domicílio e demanda por corridas premium.
 - Fornecer informações para otimizar as estratégias de corridas premium como motorista de aplicativo.
 
 ## Dados Utilizados
@@ -21,28 +19,13 @@ Este é um projeto que visa encontrar regiões mais adensadas e maior renda per 
 ---
 
 - Dados do IBGE (Instituto Brasileiro de Geografia e Estatística) sobre população e renda per capita.
+- Artigos sobre densidade demográfica e utilização de corridas do tipo ride-hailing (Uber, 99 etc.)
+- Divulgações sobre renda domiciliar e a respectica classe econômica
 
 ## Tecnologias Utilizadas
 
 ---
 
 - Python como linguagem de programação principal.
-- Bibliotecas como pandas, matplotlib, seaborn e folium para análise e visualização de dados.
-
-## Como Usar
-
----
-
-Para usar este projeto, basta clonar o repositório e executar os comandos `pip install -r requirements.txt` e o notebook `estudos_demograficos_setores_censitarios_v2.ipynb`.
-
-## Notas
-
----
-
-Este é um projeto em desenvolvimento. Se você tiver alguma sugestão ou contribuição para melhorar as análises, por favor, nos envie!
-
-Exemplo de como visualizar os resultados:
-
-- ...
-
-Espero que isso ajude! Se tiver alguma dúvida, sinta-se à vontade para perguntar.
+- Bibliotecas como ftp, zipfile e requests para busca de dados.
+- Bibliotecas como pandas, seaborn e folium para análise e visualização de dados.
